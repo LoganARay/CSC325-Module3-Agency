@@ -27,7 +27,7 @@ public class TempEmployee extends StaffEmployee
     //-----------------------------------------------------------------
     public void addHours(int moreHours)
     {
-
+    hoursWorked += moreHours;
 
     }
 
