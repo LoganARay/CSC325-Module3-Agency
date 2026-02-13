@@ -30,6 +30,7 @@ public class Staff
 
         for (int count=0; count < staffList.length; count++)
         {
+            System.out.print("Employee -" + (count + 1));
             System.out.println(staffList[count]);
 
             amount = staffList[count].pay();  // polymorphic

@@ -20,7 +20,7 @@ package com.mycompany.agency;
     {
         return "\nName: " + name + "\n" +
                 "Address: " + address + "\n" +
-                "Phone: " + phone + "\n";
+                "Phone: " + phone;
     }
 
     //-----------------------------------------------------------------
