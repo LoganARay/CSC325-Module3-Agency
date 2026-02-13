@@ -28,7 +28,6 @@ public class TempEmployee extends StaffEmployee
     public void addHours(int moreHours)
     {
     hoursWorked += moreHours;
-
     }
 
     //-----------------------------------------------------------------
@@ -36,7 +35,10 @@ public class TempEmployee extends StaffEmployee
     //-----------------------------------------------------------------
     public double pay()
     {
-
+        double hourlyPay;
+        hourlyPay = hoursWorked * payRate;
+        hoursWorked = 0;
+        return hourlyPay;
     }
 
     //-----------------------------------------------------------------
