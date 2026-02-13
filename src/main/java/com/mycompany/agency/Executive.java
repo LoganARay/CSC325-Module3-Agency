@@ -32,6 +32,9 @@ public class Executive extends StaffEmployee
     //-----------------------------------------------------------------
     public double pay()
     {
-       
+       double regularPay = super.pay();
+       double totalPay = regularPay + bonus;
+       bonus = 0;
+       return totalPay;
     }
 }
