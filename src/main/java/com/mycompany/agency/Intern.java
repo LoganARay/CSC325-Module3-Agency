@@ -12,14 +12,15 @@ public class Intern extends StaffEmployee
     //-----------------------------------------------------------------
     public Intern(String eName, String eAddress, String ePhone)
     {
-        
+        super(eName, eAddress, ePhone, "", 0);
     }
 
     //-----------------------------------------------------------------
     // TODO 3:  Returns a zero pay value for this intern.
     //-----------------------------------------------------------------
+    @Override
     public double pay()
     {
-      
+      return 0.0;
     }
 }
